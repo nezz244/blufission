@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656038253853",
+    "project_id": "eazimeddz",
+    "storage_bucket": "eazimeddz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656038253853:android:54c1ea6e93bdfb1f1d3df4",
+        "android_client_info": {
+          "package_name": "com.example.blufission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656038253853-6cvt0tse1boe6gp6ntdb8pdktvojjbeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChyC7NUUjdF-raXhutnqAlJfJ-0f6PH7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656038253853-6cvt0tse1boe6gp6ntdb8pdktvojjbeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
