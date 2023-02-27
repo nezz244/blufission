@@ -1,5 +1,6 @@
 
 
+import 'package:eazimeddz/otp_login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -23,8 +24,8 @@ class MainPage extends StatelessWidget {
             return Center(child: Text('Something went wrong!'));
           }
           else if (snapshot.hasData)
-          {
-            return HomePage();
+          {// return homescreen
+            return OtpLoginScreen();
           }
           else{
             return AuthPage();

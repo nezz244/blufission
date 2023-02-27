@@ -58,6 +58,7 @@ dev_dependencies:
   google_sign_in:
   cloud_firestore:
   firebase_core_platform_interface: 4.5.2
+  pinput: ^2.2.11
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

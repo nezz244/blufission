@@ -3,6 +3,8 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import 'NavBar.dart';
+
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
@@ -29,6 +31,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) =>
       Scaffold(
 
+        drawer: NavBar(),
 
           appBar: AppBar(
             title: const Text('Home'),

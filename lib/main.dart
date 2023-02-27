@@ -1,10 +1,13 @@
 
+import 'package:eazimeddz/home_page.dart';
+import 'package:eazimeddz/otp_login_screen.dart';
 import 'package:eazimeddz/utils.dart';
 import 'package:eazimeddz/verify_email_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import 'Pages/book_a_doctor.dart';
 import 'auth_page.dart';
 import 'login_widget.dart';
 Future main() async{
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
       ),
 
 
-      home: MainPage(),
+      home: BookADoctor(),
     );
   }
 }
